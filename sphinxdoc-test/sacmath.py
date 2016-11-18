@@ -8,6 +8,7 @@ import obspy
 import scipy.signal
 import sacdate
 
+__all__ = ['decimate', 'spectrogram']
 
 def decimate(trace, fs_new, rm_dc=True, round_time=False):
     """

@@ -14,6 +14,8 @@ import obspy
 import sacmath
 import sacdate
 
+__all__ = ['do_decimate', 'do_merge']
+
 # --- MISSIONS ---
 def do_decimate(**kwargs):
     """
