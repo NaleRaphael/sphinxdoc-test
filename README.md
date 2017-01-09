@@ -19,17 +19,21 @@ project/
 
 1. Install sphinx  
 
-2. Use `sphinx-quickstart`
-	a. ``` $ cd project/docs```
-	b. ``` $ sphinx-quickstart```
+2. Use `sphinx-quickstart`  
+
+	a. ``` $ cd project/docs```  
+
+	b. ``` $ sphinx-quickstart```  
 
 	ref: 
 	[Publishing sphinx-generated docs on github](https://daler.github.io/sphinxdoc-test/includeme.html)
 	[Sphinx documentation on GitHub](http://datadesk.latimes.com/posts/2012/01/sphinx-on-github/)
 	[Hosting your Sphinx docs in Github](http://lucasbardella.com/blog/2010/02/hosting-your-sphinx-docs-in-github)
 
-3. After quickstart
+3. After quickstart  
+
 	a. go to `docs/` -> modify `Makefile`  
+
 	```
 	BUILDDIR = …
 	```
@@ -39,7 +43,9 @@ project/
 	PDFBUILDDIR   = /tmp
 	PDF           = ../manual.pdf
 	```
+
 	b. go to `docs/source` -> add the following lines in `conf.py`
+
 	* import clauses:
 	```
 	import os
@@ -76,5 +82,6 @@ project/
 
 7. Remember add a `.nojekyll` file under the source folder
 
-8. `cd` to the folder `project/docs` (where `Makefile` locates)
+8. `cd` to the folder `project/docs` (where `Makefile` locates)  
+
 	``` $ make html```
