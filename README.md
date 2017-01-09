@@ -15,7 +15,7 @@ project/
 		(empty)
 ```
 
-## Steps
+## Steps - building docs by sphinx
 
 1. Install sphinx  
 
@@ -88,8 +88,16 @@ project/
 
 	``` $ make html```
 
-9. Upload this repo on github, and you can see the docs on github pages.  
+## Steps - host your docs on github  
 
-	url of your repo: `https://github.com/YOUR_NAME/YOUR_REPO`
+1. Create a repo on github  
 
-	url of the github pages: `https://YOUR_NAME.github.com/YOUR_REPO`
+2. Create a branch named `gh-pages`  
+
+3. Upload those docs you just create on that branch  
+
+4. Then you can see the docs on github pages.  
+
+	url of your repo: `https://github.com/YOUR_NAME/YOUR_REPO`  
+
+	url of the github pages: `https://YOUR_NAME.github.com/YOUR_REPO`  
