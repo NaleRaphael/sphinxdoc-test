@@ -62,7 +62,9 @@ project/
 	```
 
 4. Generate api-doc
+
 	``` $ sphinx-apidoc -o [output_path] [project_path]```
+
 	official doc: [sphinx-apidoc manual page](http://www.sphinx-doc.org/en/1.5.1/man/sphinx-apidoc.html)
 
 5. Then, `mod_foo.rst`... should appear under the folder `docs/source`. If not, copy and paste them into it.
