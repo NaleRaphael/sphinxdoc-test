@@ -87,3 +87,9 @@ project/
 8. `cd` to the folder `project/docs` (where `Makefile` locates)  
 
 	``` $ make html```
+
+9. Upload this repo on github, and you can see the docs on github pages.  
+
+	url of your repo: `https://github.com/YOUR_NAME/YOUR_REPO`
+
+	url of the github pages: `https://YOUR_NAME.github.com/YOUR_REPO`
