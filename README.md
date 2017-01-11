@@ -21,7 +21,7 @@ project-docs/	# <- docs of your project
 ```
 
 
-## Thought:
+## Thought
 
 * Create a new branch of your repo that only contains your docs.
 
@@ -141,8 +141,8 @@ So that you don't have to switch branch before updating anything in your `projec
 
 ## Reference
 
-	[Publishing sphinx-generated docs on github](https://daler.github.io/sphinxdoc-test/includeme.html)
+[Publishing sphinx-generated docs on github](https://daler.github.io/sphinxdoc-test/includeme.html)
 
-	[Sphinx documentation on GitHub](http://datadesk.latimes.com/posts/2012/01/sphinx-on-github/)
+[Sphinx documentation on GitHub](http://datadesk.latimes.com/posts/2012/01/sphinx-on-github/)
 
-	[Hosting your Sphinx docs in Github](http://lucasbardella.com/blog/2010/02/hosting-your-sphinx-docs-in-github)
+[Hosting your Sphinx docs in Github](http://lucasbardella.com/blog/2010/02/hosting-your-sphinx-docs-in-github)
