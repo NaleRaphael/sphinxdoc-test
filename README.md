@@ -34,13 +34,13 @@ So that you don't have to switch branch before updating anything in your `projec
 
 1. Create a new folder for your docs (project-docs/), and `cd` to it. Then, 
 
-	``` $ git clone git@github.com:YOUR_USER_NAME/project.git html```
+	```$ git clone git@github.com:YOUR_USER_NAME/project.git html```
 
 	This command will clone your repo into the folder `html`.
 
 2. Move into the folder `html` (project-docs/html/)
 
-	``` $ cd html```
+	```$ cd html```
 
 	Next, we will clear the content in the folder `html`, and make it as a directory for branch `gh-pages`.
 
@@ -57,7 +57,7 @@ So that you don't have to switch branch before updating anything in your `projec
 
 1. Install sphinx
 
-	``` $ pip install sphinx```
+	```$ pip install sphinx```
 
 2. Move into the folder for storing config files (project/docs/), then use `sphinx-quickstart`
 
@@ -99,7 +99,7 @@ So that you don't have to switch branch before updating anything in your `projec
 
 4. Generate docs
 
-	``` $ sphinx-apidoc -o [output_path] [project_path]```
+	```$ sphinx-apidoc -o [output_path] [project_path]```
 
 	official doc: [sphinx-apidoc manual page](http://www.sphinx-doc.org/en/1.5.1/man/sphinx-apidoc.html)
 
@@ -122,7 +122,7 @@ So that you don't have to switch branch before updating anything in your `projec
 
 8. `cd` to the folder `project/docs/` (where `Makefile` locates in)  
 
-	``` $ make html```
+	```$ make html```
 
 	This command will generate html files according to the `*.rst / *.md` files in the folder `project/docs/build/`.
 
